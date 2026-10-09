@@ -18,8 +18,6 @@ def reserve_units(
     """
     if reserved is None:
         reserved = {}
-    if reserved is None:
-        reserved = {}
 
     sku = request.get("sku", "")
     amount = int(request.get("qty", "0"))
